@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Thank you | Aryan Patel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+      --text: #0f172a;
+      --accent: #2563eb;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 32px 28px;
+      border-radius: 18px;
+      box-shadow: 0 24px 55px rgba(15, 23, 42, 0.18);
+      max-width: 380px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .card h1 {
+      font-size: 1.7rem;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-size: 0.98rem;
+      opacity: 0.8;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 22px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #2563eb, #3b82f6);
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      box-shadow: 0 16px 35px rgba(37, 99, 235, 0.45);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 22px 45px rgba(37, 99, 235, 0.55);
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 26px 20px;
+      }
+      .card h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Thanks for reaching out!</h1>
+    <p>Your message has been sent successfully. Aryan will get back to you as soon as possible.</p>
+    <a href="/">Back to portfolio</a>
+  </div>
+</body>
+</html>
